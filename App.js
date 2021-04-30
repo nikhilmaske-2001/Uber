@@ -8,14 +8,18 @@
 
 import React from 'react';
 import type { Node } from 'react';
-import { SafeAreaView } from 'react-native';
+import { View } from 'react-native';
+
+// All imports of screens go here:
+import HomeScreen from './src/screens/HomeScreens/Homescreen';
 
 
 const App: () => Node = () => {
 
   return (
-    <SafeAreaView>
-    </SafeAreaView >
+    <View>
+      <HomeScreen />
+    </View>
   );
 };
 
