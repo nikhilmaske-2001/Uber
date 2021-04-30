@@ -1,10 +1,12 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
+import HomeMap from '../../components/HomeMap/Homemap';
+
 const HomeScreen = (props) => {
     return (
         <View>
-            <Text> This is HomeScreen! I am coding </Text>
+            <HomeMap />
         </View>
     );
 };
