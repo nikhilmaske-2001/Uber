@@ -11,14 +11,16 @@ import type { Node } from 'react';
 import { View } from 'react-native';
 
 // All imports of screens go here:
-import HomeScreen from './src/screens/HomeScreens/Homescreen';
+// import HomeScreen from './src/screens/HomeScreens/Homescreen';
+import DestinationSearch from './src/screens/DestinationSearch/DestinationSearch';
 
 
 const App: () => Node = () => {
 
   return (
     <View>
-      <HomeScreen />
+      {/* <HomeScreen /> */}
+      <DestinationSearch />
     </View>
   );
 };
